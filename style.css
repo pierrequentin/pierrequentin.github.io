@@ -1,18 +1,51 @@
-body{
+body {
     font-family: 'Indie Flower', cursive;
 }
 
-a { 
-    text-decoration: none;
- }
-
-header{
-    text-align:center;
-    font-size: 50px ;
+header > ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
     margin: 1em;
+    /* position: fixed;
+    top: 0; */
 }
 
-section, footer {
+h1 {
+    color: #fbcf13;
+    text-align:center;
+}
+
+h3 {
+    color:#fb9c8e;
+    text-align:center;
+}
+
+li {
+    margin-left: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.transparent {
+    opacity: 0.7; /*  CSS3  */
+    filter(opacity=60);  /*  Pour IE  */
+ }
+
+section, div, footer, nav {
     text-align:center;
     margin: 2em;
 }
