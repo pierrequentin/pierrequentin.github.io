@@ -1,5 +1,6 @@
 body {
     font-family: 'Indie Flower', cursive;
+    text-align:center;
 }
 
 header > ul {
@@ -16,10 +17,31 @@ h1 {
     text-align:center;
 }
 
-h3 {
+.orange {
     color:#fb9c8e;
     text-align:center;
 }
+
+.green {
+    color:#7fa84c;
+    text-align: center;
+}
+
+.blue {
+    color:#3f6db3;
+    text-align: center;
+}
+
+.grad1 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 li {
     margin-left: auto;
@@ -28,6 +50,14 @@ li {
 a {
     color: black;
     text-decoration: none;
+}
+
+.grow { 
+    transition: all .1s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
 }
 
 .container {
