@@ -3,16 +3,18 @@ body {
     text-align:center;
 }
 
-header > ul {
-    display: flex;
-    list-style: none;
-    margin-left: auto;
+.container{
+    width: all;
+    height: all;
+    border: 2px solid lightgrey;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(241, 241, 241);
+    padding: 1em;
     margin: 1em;
-    /* position: fixed;
-    top: 0; */
 }
 
-h1 {
+
+.yellow {
     color: #fbcf13;
     text-align:center;
 }
@@ -32,50 +34,8 @@ h1 {
     text-align: center;
 }
 
-.grad1 {
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-li {
-    margin-left: auto;
-}
-
 a {
     color: black;
     text-decoration: none;
 }
 
-.grow { 
-    transition: all .1s ease-in-out; 
-}
-
-.grow:hover { 
-    transform: scale(1.1); 
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-ul {
-    list-style: none;
-}
-
-.transparent {
-    opacity: 0.7; /*  CSS3  */
-    filter(opacity=60);  /*  Pour IE  */
- }
-
-section, div, footer, nav {
-    text-align:center;
-    margin: 2em;
-}
